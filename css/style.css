@@ -136,13 +136,20 @@ body{
     color: white;
     font-size: 30px;
     position: absolute;
+    width: 100%;
+    text-align: center;
     top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    -webkit-transform: translate(-50%,-50%);
-    -moz-transform: translate(-50%,-50%);
-    -ms-transform: translate(-50%,-50%);
-    -o-transform: translate(-50%,-50%);
+    transform: translate(0,-50%);
+    -webkit-transform: translate(0,-50%);
+    -moz-transform: translate(0,-50%);
+    -ms-transform: translate(0,-50%);
+    -o-transform: translate(0,-50%);
+}
+
+@media only screen and (max-width: 600px){
+    .overlay-services h3{
+        font-size: 20px;
+    }
 }
 /* end services */
 
@@ -153,7 +160,53 @@ body{
 
 
 
+/* start works */
+.container0-works{
+    background-color: #F1F1F1;
+}
 
+.container1-works{
+    width: 90%;
+    margin: auto;
+    padding-top: 70px;
+}
+
+.name-works {
+    overflow: auto;
+    margin-bottom: 50px;
+}
+
+.name-works h3{
+    float: right;
+    font-size: 35px;
+}
+
+.name-works button{
+    float: left;
+    height: 40px;
+    padding: 0 15px;
+    border: 1px solid #52b035;
+    color: #52b035;
+    font-size: 23px;
+}
+
+.name-works button:hover{
+    background-color: #52b035;
+    color: white;
+}
+
+
+.item-works{
+    width: 310px;
+}
+
+.item-works img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.item-works 
+/* end works */
 
 
 
