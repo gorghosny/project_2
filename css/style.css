@@ -11,6 +11,127 @@ body{
 
 
 
+/* start nav */
+.container-nav{
+    background-color: #444;
+    height: 60px;
+    z-index: 100;
+    overflow: auto;
+    padding: 0 5%;
+    position: fixed;
+    width: 100%;
+}
+
+.link1{
+    float: right;
+    padding: 20px;
+}
+
+.link1:hover{
+    background-color: #9a9a9a;
+}
+
+.link5 img{
+    height: 40px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+
+.link2 img{
+    height: 50px;
+    float: right;
+    padding: 0 20px;
+}
+
+.link3{
+    float: right;
+    padding: 20px;
+}
+
+.link3:hover{
+    background-color: #9a9a9a;
+}
+
+.link4{
+    float: right;
+    padding: 20px;
+}
+
+.link4:hover{
+    background-color: #9a9a9a;
+}
+
+.link5{
+    float: left;
+    padding: 10px 20px;
+}
+
+.link5:hover{
+    background-color: #9a9a9a;
+}
+
+.link6{
+    float: left;
+    padding: 20px;
+}
+
+.link6:hover{
+    background-color: #9a9a9a;
+}
+
+.link7{
+    float: left;    
+    padding: 20px;
+
+}
+
+.link7:hover{
+    background-color: #9a9a9a;
+}
+
+.link8{
+    float: left;
+    padding: 20px;
+}
+
+.link8:hover{
+    background-color: #9a9a9a;
+}
+
+.link9{
+    float: left;
+    padding: 20px;
+}
+
+.link9:hover{
+    background-color: #9a9a9a;
+}
+
+.container-nav i {
+    font-size: 18px;
+    color: white;
+}
+
+.container-nav a{
+    text-decoration: none;
+    color: white;
+}
+
+.link1,.link2,.link3,.link4,.link5,.link6,.link7,.link8,.link9{
+    height: 100%;
+}
+/* end nav */
+
+
+
+
+
+
+
+
 
 
 
@@ -195,9 +316,15 @@ body{
     color: white;
 }
 
+.items-works{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
 
 .item-works{
     width: 310px;
+    margin: 10px;
 }
 
 .item-works img{
@@ -205,7 +332,34 @@ body{
     margin-bottom: 10px;
 }
 
-.item-works 
+.item-works h4{
+    margin-bottom: 10px;
+}
+
+
+.item-works a{
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+}
+
+.item-works a:hover{
+    color: #52b035;
+}
+
+.sections-works{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.rate-works{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.price-works{
+    font-size: 20px;
+}
 /* end works */
 
 
